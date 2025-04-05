@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xuan Tai Computers</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="logo">
+            <img src="/imger/logota.webp" alt="Bac Thanh Computer Logo">
+            <h1>XUAN TAI COMPUTERS</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Try searching for something...">
+            <button>🔍</button>
+        </div>
+        <div class="cart-button">
+            <button id="view-cart">🛒 Cart</button>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html"id="scrollToSection">Product Categories</a></li>
+            <li><a href="introduce.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="warrantypolicy.html">Warranty Policy</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>XUAN TAI COMPUTERS</h2>
+                <p>Quality Beyond Trust</p>
+                <p>Specializing in consulting and providing laptops based on your needs</p>
+            </div>
+            <div class="hero-image">
+                <img src="imger/logowed.webp" alt="Computer image">
+            </div>
+
+        </section>
+        <!-- Laptop Gaming Section -->
+
+    <section class="gaming-laptops">
+        <div class="section-title">Laptop Gaming</div>
+        <div class="carousel-container">
+            <div class="slider-wrapper">
+            <div class="slider">
+                
+                <div class="product">
+                    <img src="/imger/acer-nitro-5-tiger-2022-1-300x300.webp" alt="Acer Gaming Nitro 5">
+                    <h3>[New] Acer Gaming Nitro 5</h3>
+                    <p>Giá: 26.000.000 đ</p>
+                    <button onclick="addToCart('Acer Gaming Nitro 5', 26000000, '/imger/acer-nitro-5-tiger-2022-1-300x300.webp')">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="/imger/acer-aspire-7-1-300x300.webp" alt="Acer Aspire 7">
+                        <h3>[User] Acer Aspire 7</h3>
+                        <p>Giá: 9.000.000 đ</p>
+                        <button onclick="addToCart('Acer Aspire 7', 9000000, '/imger/acer-aspire-7-1-300x300.webp')">
+                            Add to Cart
+                        </button>
+                </div>
+                    <div class="product">
+                        <img src="/imger/legion-5-pro-2022-1-300x300.webp" alt="Legion 5 Pro 2022">
+                        <h3>[New] Legion 5 Pro 2022</h3>
+                        <p>Giá: 26.000.000 đ</p>
+                        <button onclick="addToCart('Legion 5 Pro 2022', 26000000, '/imger/legion-5-pro-2022-1-300x300.webp')">
+                            Add to Cart
+                        </button>
+                    </div>
+                
+                <div class="product">
+                    <img src="/imger/HP-Victus-2023-1-300x300.webp" alt="HP Gaming Victus 2023">
+                    <h3>[New] HP Gaming Victus 2023</h3>
+                    <p> 14.000.000 đ</p>
+                    <button onclick="addToCart('HP Gaming Victus 2023', 14000000, '/imger/HP-Victus-2023-1-300x300.webp')">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="/imger/lenovo-legion-5-2021-300x300.webp" alt="Lenovo Legion 5 2021 15ACH6H">
+                    <h3>[LikeNew] Lenovo Legion 5 2021 15ACH6H</h3>
+                    <a href="#">37.000.000 đ</a>
+                    <button onclick="addToCart('Lenovo Legion 5 2021 15ACH6H', 37000000, '/imger/lenovo-legion-5-2021-300x300.webp')">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="/imger/Lenovo-Legion-5-Pro-2023-1-300x300.webp" alt="Lenovo Legion 5 Pro 2023 Intel">
+                    <h3>[New] Lenovo Legion 5 Pro 2023 Intel</h3>
+                    <a href="#">24.000.000 đ</a>
+                    <button onclick="addToCart('Lenovo Legion 5 Pro 2023 Intel', 24000000, '/imger/Lenovo-Legion-5-Pro-2023-1-300x300.webp')">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="/imger/Lenovo-Legion-Y7000-2020-1-300x300.webp" alt="Lenovo Legion 5 (Y7000) 2020">
+                    <h3>[Like new] Lenovo Legion 5 (Y7000) 2020</h3>
+                    <a href="#">13.500.000 đ</a>
+                    <button onclick="addToCart('Lenovo Legion 5 (Y7000) 2020', 13500000, '/imger/Lenovo-Legion-Y7000-2020-1-300x300.webp')">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="/imger/hp-victus-16-2021-1.webp" alt="HP Gaming Victus 16 2021">
+                    <h3>[Like new] HP Gaming Victus 16 2021</h3>
+                    <a href="#">13.000.000 đ</a>
+                    <button onclick="addToCart('Lenovo Legion 5 (Y7000) 2020', 13000000, '/imger/Lenovo-Legion-Y7000-2020-1-300x300.webp')">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="product">
+                    <img src="/imger/lenovo-ideapad-gaming-3-2022-1.webp" alt="Lenovo IdeaPad Gaming 3 2022 (AMD)">
+                    <h3>[New] Lenovo IdeaPad Gaming 3 2022 (AMD)3</h3>
+                    <a href="#">21.000.000 đ</a>
+                    <button onclick="addToCart('Lenovo IdeaPad Gaming 3 2022 (AMD)', 21000000, '/imger/lenovo-ideapad-gaming-3-2022-1.webp')">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="pagination"></div>
+        </div>
+        </div>
+    </section>
+<!-- Laptop Sinh viên - Văn phòng Section -->
+<section class="office-laptops">
+    <h2 class="section-title">Laptop Sinh viên - Văn phòng</h2>
+    <div class="custom-carousel">
+        <div class="custom-slider-wrapper">
+            <div class="custom-slider">
+                <div class="product">
+                    <img src="/imger/lapsinhvien/Asus-Vivobook-15X-OLED-A1503ZA-L1139W-1-300x300.webp" alt="Asus Vivobook 15X OLED">
+                    <p>Asus Vivobook 15X OLED</p>
+                    <a href="#">Liên hệ</a>
+                </div>
+                <div class="product">
+                    <img src="/imger/lapsinhvien/hp-elitebook-840-g8-1-300x241.webp" alt=" HP Elitebook 840 G8">
+                    <p>[Like New]  HP Elitebook 840 G8</p>
+                    <a href="#">Liên hệ</a>
+                </div>
+                <div class="product">
+                    <img src="/imger/lapsinhvien/inspiron-5420-3-300x196.webp" alt=" Dell Inspiron 5420">
+                    <p>[New] Dell Inspiron 5420</p>
+                    <a href="#">Liên hệ</a>
+                </div>
+                <div class="product">
+                    <img src="/imger/lapsinhvien/inspiron-5620-300x210.webp" alt="Dell Inspiron 5620">
+                    <p>[New] Dell Vostro 5510 2021</p>
+                    <a href="#">Liên hệ</a>
+                </div>
+                <div class="product">
+                    <img src="/imger/lapsinhvien/latitude-7300-1-300x180.webp" alt="Dell Latitude 7300">
+                    <p>[Used] Dell Latitude 7300</p>
+                    <a href="#">Liên hệ</a>
+                </div>
+                <div class="product">
+                    <img src="/imger/lapsinhvien/latitude-7410-1-300x198.webp" alt="Dell Latitude 7410">
+                    <p>[Used] Dell Latitude 7410</p>
+                    <a href="#">9.100.000 ₫–11.000.000 ₫</a>
+                </div>
+                <div class="product">
+                    <img src="/imger/lapsinhvien/latitude-7410-2-in-1-2-300x300.webp" alt="Dell Latitude 7410 2 in 1">
+                    <p>[Used] Dell Latitude 7410 2 in 1</p>
+                    <a href="#">12.500.000 đ</a>
+                </div>
+                <div class="product">
+                    <img src="/imger/lapsinhvien/thinkpad-x1-carbon-gen-6-1-300x231.webp" alt="[Used] Lenovo Thinkpad X1 Carbon Gen 6">
+                    <p>[[Used] Lenovo Thinkpad X1 Carbon Gen 6</p>
+                    <a href="#">Liên hệ</a>
+                </div>
+                <div class="product">
+                    <img src="/imger/lapsinhvien/vostro-5510-1-300x190.webp" alt="Dell Vostro 5510 2021">
+                    <p>[New] Dell Vostro 5510 2021</p>
+                    <a href="#">Liên hệ</a>
+                </div>
+            </div>
+        </div>
+        <div class="custom-pagination"></div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>AN THAI PHAT SERVICE AND TRADING JOINT STOCK COMPANY</h3>
+                <h4>BAC THANH COMPUTERS</h4>
+                <p>📧 <a href="mailto:maytinhbacthanh@gmail.com">maytinhbacthanh@gmail.com</a></p>
+                <p>📞 Consultation Hotline: 098 129 1787</p>
+                <p>📞 Customer Support: 056 652 0200</p>
+                <p>📞 Wholesale, Feedback, and Complaints Hotline: 038 995 5943</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>ABOUT THE COMPANY</h3>
+                <ul>
+                    <li><a href="introduce.html">Company Introduction</a></li>
+                    <li><a href="contact.html">Contact Information</a></li>
+                    <li><a href="warrantypolicy.html">Return & Warranty Policy</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h3>EXPLORE OUR SOCIAL NETWORKS</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="/imger/faceook.jpg" alt="Facebook"></a>
+                    <a href="#"><img src="/imger/tiktok.jpg" alt="TikTok"></a>
+                    <a href="#"><img src="/imger/zalo.jpg" alt="Zalo"></a>
+                </div>
+            </div>
+        </div>
+    
+        <p class="footer-note">Business Registration Number 0108852345, issued on 02/08/2019 @ bacthanh.vn</p>
+    </footer>
+    
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
+
