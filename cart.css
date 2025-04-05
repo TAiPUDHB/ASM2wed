@@ -1,0 +1,101 @@
+    /* Tổng quan */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Container giỏ hàng */
+    .cart-container {
+        width: 60%;
+        margin: 50px auto;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    /* Tiêu đề */
+    .cart-container h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    /* Danh sách sản phẩm */
+    #cart-items {
+        text-align: left;
+        margin-top: 20px;
+    }
+    
+    /* Một sản phẩm trong giỏ hàng */
+    .cart-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    /* Hình ảnh sản phẩm */
+    .cart-item img {
+        width: 80px;
+        height: auto;
+        border-radius: 5px;
+        margin-right: 15px;
+    }
+    
+    /* Thông tin sản phẩm */
+    .cart-item p {
+        flex: 1;
+        font-size: 16px;
+        color: #555;
+        margin: 0;
+    }
+    
+    /* Nút xóa từng sản phẩm */
+    .cart-item button {
+        background-color: #ff4d4d;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    
+    .cart-item button:hover {
+        background-color: #cc0000;
+    }
+    
+    /* Nút Xóa giỏ hàng & Thanh toán */
+    .cart-container button {
+        margin-top: 20px;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+    
+    .cart-container button:first-of-type {
+        background-color: #ff4d4d;
+        color: white;
+    }
+    
+    .cart-container button:first-of-type:hover {
+        background-color: #cc0000;
+    }
+    
+    .cart-container button:last-of-type {
+        background-color: #28a745;
+        color: white;
+    }
+    
+    .cart-container button:last-of-type:hover {
+        background-color: #218838;
+    }
+    
